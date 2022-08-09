@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Animal_1 = require("./Animal");
+const Cachorro_1 = require("./Cachorro");
+const Gato_1 = require("./Gato");
+let animal = new Animal_1.Animal("Arara", "Azul", "Femêa", 0.321);
+animal.apresentarAnimal();
+let cachorro = new Cachorro_1.Cachorro("Scote", "Puddle", "Macho", 0.505, true);
+cachorro.apresentarAnimal();
+let gato = new Gato_1.Gato("Gato de botas", "Mestiço", "Femea", 0.453, true);
+gato.apresentarAnimal();
+gato.gatoMia();
